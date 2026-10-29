@@ -48,6 +48,27 @@ I also need to verify the definitions and units of the environmental variables a
 
 My next steps are to review the analysis, make sure the notebook runs correctly from beginning to end, improve the project documentation, and identify what additional data would be needed for a more reliable landslide-susceptibility study.
 
+## Visualizations
+
+### 1. Correlation Heatmap
+
+This heatmap shows the Pearson correlations between numerical environmental variables. Positive values indicate positive linear relationships, while negative values indicate negative linear relationships.
+
+![Correlation heatmap](figures/correlation_heatmap.png)
+
+### 2. Elevation vs. Slope
+
+This scatter plot explores the relationship between elevation and slope across the recorded landslide locations.
+
+![Elevation vs. slope scatter plot](figures/elevation_vs_slope.png)
+
+### 3. Strongest Correlations
+
+This chart highlights six of the strongest correlations found between numerical environmental variables in the dataset.
+
+![Strongest correlations between environmental variables](figures/strongest_correlations.png)
+
+
 ## Project Structure
 
 ```text
