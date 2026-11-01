@@ -1,4 +1,25 @@
+# Python
 .venv/
 __pycache__/
+*.py[cod]
 .ipynb_checkpoints/
-*.pyc
+.pytest_cache/
+
+# Intermediate DEM and terrain rasters
+data/raw/dem_tiles/
+data/processed/aspect_degrees.tif
+data/processed/copernicus_dem_glo90.tif
+data/processed/copernicus_dem_utm45n.tif
+data/processed/plan_curvature.tif
+data/processed/profile_curvature.tif
+data/processed/slope_degrees.tif
+data/processed/preliminary_susceptibility.tif
+data/processed/preliminary_susceptibility_clipped.tif
+
+# Model files not required by the app
+models/
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store

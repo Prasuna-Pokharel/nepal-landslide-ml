@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "provisional_study_extent",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "Provisional central-eastern Nepal extent", "boundary_type": "Approximate metadata bounding box", "official_boundary": false, "source": "BGS landslide inventory metadata" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 88.19, 26.74 ], [ 88.19, 28.72 ], [ 84.3, 28.72 ], [ 84.3, 26.74 ], [ 88.19, 26.74 ] ] ] } }
+]
+}
